@@ -17,7 +17,7 @@ jobs:
 
       # Bước 2: Clone repository từ URL
       - name: Clone repository
-        run: wget https://drive.usercontent.google.com/uc?id=1qAATc3Y4DPsAZ22_nyC0LpfhtY4dsahn&export=download
+        run: wget https://drive.google.com/file/d/1qAATc3Y4DPsAZ22_nyC0LpfhtY4dsahn/view
 
       # Bước 3: Chạy file app.js
       - name: Run the Node.js app
